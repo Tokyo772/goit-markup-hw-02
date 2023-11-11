@@ -3,21 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <!-- HAIDER -->
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="#">Studio</a></li>
+        <a class="logo" href="./index.html"
+          >Web<span class="logo-studio">Studio</span></a
+        >
+        <ul class="nav-header">
+          <li>
+            <a href="#"><span class="nav-header-studio">Studio</span></a>
+          </li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
+        <ul class="header-address">
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
@@ -26,41 +44,41 @@
     <!-- MAIN -->
     <main>
       <!-- Section-1 -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="section-1">
+        <h1 class="h1">Effective Solutions for Your Business</h1>
+        <button type="button" class="button">Order Service</button>
       </section>
       <!-- Section-2 -->
       <section>
-        <h2>Hiden</h2>
+        <!-- <h2>Hiden</h2> -->
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="section-2-h3">Strategy</h3>
+            <p class="section-2-p">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
 
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="section-2-h3">Punctuality</h3>
+            <p class="section-2-p">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
 
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="section-2-h3">Diligence</h3>
+            <p class="section-2-p">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
 
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="section-2-h3">Technologies</h3>
+            <p class="section-2-p">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -68,40 +86,113 @@
         </ul>
       </section>
       <!-- Section 3 -->
-      <section>
-        <h2>Our Team</h2>
+      <section class="section-3">
+        <h2 class="section-3-h2">Our Team</h2>
         <ul>
           <!-- Team Card 1/4 -->
-          <li>
+          <li class="section-3-li">
             <img src="./images/img.jpg" alt="man" width="264" height="260" />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="section-3-h3">Mark Guerrero</h3>
+            <p class="section-3-p">Product Designer</p>
           </li>
           <!-- Team Card 2/4 -->
-          <li>
+          <li class="section-3-li">
             <img src="./images/img2.jpg" alt="man" width="264" height="260" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
-          </li>
+            <h3 class="section-3-h3">Tom Ford</h3>
+            <p class="section-3-p">Frontend Developer</p>
+          </li class="section-3-li">
           <!-- Team Card 3/4 -->
-          <li>
+          <li class="section-3-li">
             <img src="./images/img3.jpg" alt="women" width="264" height="260" />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="section-3-h3">Camila Garcia</h3>
+            <p class="section-3-p">Marketing</p>
           </li>
           <!-- Team Card 4/4 -->
-          <li>
+          <li class="section-3-li">
             <img src="./images/img4.jpg" alt="man" width="264" height="260" />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="section-3-h3">Daniel Wilson</h3>
+            <p class="section-3-p">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <!-- Section-4 -->
+      <section>
+        <h2 class="section-4-h2">Our Portfolio</h2>
+        <ul>
+          <li class="section-4-li">
+            <img
+              src="./images/img-1.jpg"
+              alt="BankApp"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-4-h3">Banking App</h3>
+            <p class="section-4-p">App</p>
+          </li>
+
+          <li class="section-4-li">
+            <img
+              src="./images/img-2.jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-4-h3">Cashless Payment</h3>
+            <p class="section-4-p">Marketing</p>
+          </li>
+
+          <li class="section-4-li">
+            <img
+              src="./images/img-3.jpg"
+              alt="Meditation App"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-4-h3">Meditation App</h3>
+            <p class="section-4-p">App</p>
+          </li>
+
+          <li class="section-4-li">
+            <img
+              src="./images/img-4.jpg"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-4-h3">Taxi Service</h3>
+            <p class="section-4-p">Marketing</p>
+          </li>
+
+          <li class="section-4-li">
+            <img
+              src="./images/img-5.jpg"
+              alt="Screen Illustrations"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-4-h3">Screen Illustrations</h3>
+            <p class="section-4-p">Design</p>
+          </li>
+
+          <li class="section-4-li">
+            <img
+              src="./images/img-6.jpg"
+              alt="Online Courses"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-4-h3">Online Courses</h3>
+            <p class="section-4-p">Marketing</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- FOOTER -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="footer">
+      <a class="logo-footer" href="./index.html"
+          >Web<span class="logo-studio-footer">Studio</span></a
+        >
+      <p class="footer-p">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
