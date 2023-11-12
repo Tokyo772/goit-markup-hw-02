@@ -37,7 +37,7 @@ body {
 .nav-header:hover {
   color: #404bbf;
 }
-.nav-header-studio:active {
+.nav-header-studio:focus {
   color: #404bbf;
 }
 .header-address {
