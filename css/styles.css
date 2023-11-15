@@ -3,6 +3,13 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
 /* Header */
 .logo {
   color: #4d5ae5;
@@ -143,7 +150,6 @@ body {
   text-transform: capitalize;
 }
 .section-four-li {
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
 }
 .section-four-h-three {
