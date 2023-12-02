@@ -76,8 +76,10 @@ ul {
   background: #4d5ae5;
   cursor: pointer;
 }
-.button:hover,
-:focus {
+.button:hover {
+  background: #404bbf;
+}
+.button:focus {
   background: #404bbf;
 }
 
